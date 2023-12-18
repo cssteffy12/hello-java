@@ -16,9 +16,9 @@ jobs:
         uses: synopsys-sig/synopsys-action@v1.6.0
         with:
           ### SCANNING: Required fields
-          coverity_url: https://demo.coverity.synopsys.com/
+          coverity_url: https://poc292.coverity.synopsys.com/
           coverity_user: admin
-          coverity_passphrase: J13@^bP!Ls^^1JrxTU8G1!
+          coverity_passphrase: 8YBcli2nmZU?1!
           coverity_project_name: Test
           coverity_stream_name: Test2
           
