@@ -16,11 +16,11 @@ jobs:
         uses: synopsys-sig/synopsys-action@v1.6.0
         with:
           ### SCANNING: Required fields
-          coverity_url: https://testing.coverity.synopsys.com/
+          coverity_url: https://poc292.coverity.synopsys.com/
           coverity_user: admin
-          coverity_passphrase: 1xdP0upcleb7^jEmaQyf1!
-          coverity_project_name: Test
-          coverity_stream_name: Test2
+          coverity_passphrase: 8YBcli2nmZU?1!
+          coverity_project_name: ActionTest
+          coverity_stream_name: ActionTest2
           
           ### Coverity Connect users - Uncomment below
           coverity_local: true
